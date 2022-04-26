@@ -1,7 +1,5 @@
 # rut-npm
 
-### version 1.0.1
-
 Chilean Rut validation, social security number install
 
 ```
