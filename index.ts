@@ -2,13 +2,13 @@ export function isRut(rol: string): boolean {
   //social number verification
   const rolChecker = (rol?: string): boolean => {
     //undefinded solution
-    if (rol === undefined) {
-      return false;
-    }
+    if (rol === undefined) return false;
 
     rol = rol?.replace('‐', '-');
     rol = rol?.split('.').join('');
     const re: RegExp = /^[0-9]+[-|‐]{1}[0-9kK]{1}$/;
+
+    if (rol === '11111111-1') return false;
 
     if (!re.test(rol)) {
       return false;
