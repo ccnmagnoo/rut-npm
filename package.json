@@ -1,12 +1,21 @@
 {
   "name": "rut-npm",
   "version": "1.0.0",
-  "description": "",
+  "description": "chilean social security number validation",
   "main": "index.js",
   "scripts": {
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "social number",
+    "chile",
+    "rut",
+    "rol"
+  ],
+  "author": "ccnmagnoo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
