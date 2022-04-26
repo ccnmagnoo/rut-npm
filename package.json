@@ -1,6 +1,6 @@
 {
   "name": "rut-npm",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "chilean social security number validation",
   "main": "index.js",
   "scripts": {
