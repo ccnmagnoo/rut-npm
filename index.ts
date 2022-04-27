@@ -1,8 +1,8 @@
-import { rolChecker } from './rolChecker';
-import { rolDigitGen } from './rolDigitGe';
+import { rolChecker } from './functions/rolChecker';
+import { rolDigitGen } from './functions/rolDigitGen';
 export function isRut(rol: string): { result: boolean; error?: string } {
   //social number verification
   return rolChecker(rol);
 }
 
-export const rolCV = rolDigitGen;
+export const genCV = rolDigitGen;

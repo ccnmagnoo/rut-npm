@@ -1,4 +1,4 @@
-import { rolDigitGen } from './rolDigitGe';
+import { rolDigitGen } from './rolDigitGen';
 
 export const rolChecker = (rol?: string): { result: boolean; error?: string } => {
   //undefinded solution

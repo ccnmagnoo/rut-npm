@@ -1,6 +1,6 @@
 {
   "name": "rut-npm",
-  "version": "1.0.3",
+  "version": "1.1.5",
   "description": "chilean social security number validation",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,9 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.6.3"
-  }
+  },
+  "files": [
+    "build/*.*",
+    "build/**/*.*"
+  ]
 }
